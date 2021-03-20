@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dawry</string>
+    <string name="egypt_league">Egypt League</string>
+    <string name="premeir_league">Premeir League</string>
+    <string name="caf">CAF</string>
+    <string name="la_liga">LaLiga</string>
+</resources>

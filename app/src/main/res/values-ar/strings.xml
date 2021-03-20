@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الدوري</string>
+    <string name="egypt_league">الدوري المصري</string>
+    <string name="premeir_league">الدوري الإنجليزي الممتاز</string>
+    <string name="caf">كأس الامم الافريقية</string>
+    <string name="la_liga">الدوري الاسباني</string>
+</resources>
