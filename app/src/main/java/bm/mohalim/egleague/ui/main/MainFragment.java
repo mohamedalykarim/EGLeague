@@ -1,16 +1,15 @@
 package bm.mohalim.egleague.ui.main;
 
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import bm.mohalim.egleague.R;
 import bm.mohalim.egleague.databinding.FragmentMainBinding;
 import bm.mohalim.egleague.ui.LeagueActivity;
 import bm.mohalim.egleague.ui.WebActivity;
@@ -57,7 +56,7 @@ public class MainFragment extends Fragment{
             public void onClick(View v) {
 
                 Intent intent = new Intent(getActivity(), WebActivity.class);
-                intent.putExtra(URL, "http://kora-online.tv/");
+                intent.putExtra(URL, "https://kora-online.tv/");
                 getActivity().startActivity(intent);
 
 

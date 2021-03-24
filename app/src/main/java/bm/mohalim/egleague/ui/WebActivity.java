@@ -2,22 +2,20 @@ package bm.mohalim.egleague.ui;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 
 import bm.mohalim.egleague.R;
 import bm.mohalim.egleague.databinding.ActivityWebBinding;
 
-import android.net.Uri;
 import android.net.http.SslError;
 import android.os.Build;
-import android.os.Message;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.SslErrorHandler;
-import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;

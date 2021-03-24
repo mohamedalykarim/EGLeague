@@ -1,6 +1,6 @@
 package bm.mohalim.egleague.ui.main;
 
-import android.arch.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModel;
 
 public class MainViewModel extends ViewModel {
     // TODO: Implement the ViewModel
